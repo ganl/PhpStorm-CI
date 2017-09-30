@@ -8,7 +8,11 @@
 
 /**
  *
- * @property user_model $user_model
+ * ***************** YOUR MODELS *****************
+ * @property user_model             $user_model
+ *
+ * ***************** YOUR LIBRARIES *****************
+ * @property I2_auth                $i2_auth               I2_auth Class
  *
  */
 class my_cc

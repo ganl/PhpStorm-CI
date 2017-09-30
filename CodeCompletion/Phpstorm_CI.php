@@ -123,10 +123,9 @@ class CI_Model extends my_cc {
     }
 }
 
-/*
- * To enable code completion to your own libraries add a line above each class as follows:
+/**
  *
- * @property Migrate       $migrate                        Library description
+ * @property Migrate              $migrate               Migrate Class
  *
  */
 class MX_Controller extends CI_Controller {
