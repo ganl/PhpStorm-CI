@@ -4,9 +4,9 @@
 
 This repository contains helper files for code completion in phpStorm with CodeIgniter3 + HMVC.
 
-CodeIgniter3: [https://github.com/bcit-ci/CodeIgniter.git]()
+CodeIgniter3: [https://github.com/bcit-ci/CodeIgniter.git](https://github.com/bcit-ci/CodeIgniter.git)
 
-HMVC: [https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc]()
+HMVC: [https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc)
 
 ## Installation
 
@@ -50,4 +50,4 @@ Let the library and model available to code completion, you need add model and L
 ![s](https://github.com/ganl/mdAssets/raw/master/img/phpStorm-ci/WX20170930-205656@2x.png)
 ![s](https://github.com/ganl/mdAssets/raw/master/img/phpStorm-ci/WX20170930-205735@2x.png)
 
-### Origin Repo : [https://github.com/topdown/phpStorm-CC-Helpers]()
+### Origin Repo : [https://github.com/topdown/phpStorm-CC-Helpers](https://github.com/topdown/phpStorm-CC-Helpers)

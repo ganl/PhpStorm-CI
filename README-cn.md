@@ -1,6 +1,6 @@
 # phpstorm代码自动补全， CodeIgniter3 & HMVC
 
-HMVC: [https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc]()
+HMVC: [https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc)
 
 # 配置
 
