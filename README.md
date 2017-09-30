@@ -1,4 +1,6 @@
-#Code Completion for CodeIgniter3 & HMVC projects in PHPStorm
+[中文说明](README-cn.md)
+
+# Code Completion for CodeIgniter3 & HMVC projects in PHPStorm
 
 This repository contains helper files for code completion in phpStorm with CodeIgniter3 + HMVC.
 
