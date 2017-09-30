@@ -7,11 +7,11 @@ HMVC: [https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc]()
 ## 方法一：设置Include Paths
 
 在项目目录中`External Libraries`上右键，选择`Configure PHP Include Pahts`
-![s](https://github.com/ganl/mdAssets/raw/master/img/phpStorm-ci/WX20170930-201933@2x.png)
+![s](https://github.com/ganl/mdAssets/raw/master/img/phpStorm-ci/WX20170930-201933@2x.png) 
 
 添加`PhpStorm-CI/CodeCompletion`所在位置的绝对路径。
-![s](https://github.com/ganl/mdAssets/raw/master/img/phpStorm-ci/2017-09-30%2020.15.24.png)
-
+![s](https://github.com/ganl/mdAssets/raw/master/img/phpStorm-ci/2017-09-30%2020.15.24.png) 
+
 ## 方法二：设置Content Root
 
 Windows：菜单 File > Settings > Directories > Add Content Root ，选择`PhpStorm-CI/CodeCompletion`
