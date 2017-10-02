@@ -5,11 +5,12 @@
  * Date: 2017/9/29
  * Time: 13:57
  *
- * Visit : https://github.com/topdown/phpStorm-CC-Helpers
- *
  * @package    PHPStorm-CI
- *
+ * @license    GPL
  * @link       https://github.com/ganl/PhpStorm-CI
+ *
+ *
+ * Visit : https://github.com/topdown/phpStorm-CC-Helpers
  *
  */
 
