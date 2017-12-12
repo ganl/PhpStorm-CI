@@ -35,13 +35,47 @@ Make CI's Controller and Model as Plain Text
 Let the library and model available to code completion, you need add model and Library to the documentation block corresponding in the `my_cc.php`.
 
 ```
+/**
+ *
  * ***************** YOUR MODELS *****************
  * @property user_model             $user_model
+ * @property log_sys_model          $log_sys                // load->model('log_sys_model', 'log_sys')
  *
  * ***************** YOUR LIBRARIES *****************
  * @property Migrate                $migrate               Migrate Class
+ * @property global_functions       $global_functions      Common functions
  *
+ */
 ```
+
+## Code Completion in Library（Option）
+
+New `My_class.php` in the libraries directory , and set to plain text; Then extends My_class in other libraries:
+
+```
+application/libraries/My_class.php
+application/libraries/Log_Server.php
+```
+
+```php
+class Log_server extends My_class
+{
+
+}
+```
+
+* My_class.php 内容如下：
+
+```php
+class My_class
+{
+
+}
+```
+
+* modify config/autoload.php：
+
+`$autoload['libraries'] = array('my_class');`
 
 ## Preview
 

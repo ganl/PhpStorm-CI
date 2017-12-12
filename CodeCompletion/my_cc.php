@@ -10,9 +10,11 @@
  *
  * ***************** YOUR MODELS *****************
  * @property user_model             $user_model
+ * @property log_sys_model          $log_sys                // load->model('log_sys_model', 'log_sys')
  *
  * ***************** YOUR LIBRARIES *****************
  * @property I2_auth                $i2_auth               I2_auth Class
+ * @property global_functions       $global_functions      Common functions
  *
  */
 class my_cc

@@ -29,16 +29,49 @@ Mac: Preferences（comand+,）> Directories > Add Content Root ，选择`PhpStor
 * system/core/Model.php
 * application/third_party/MX/Controller.php (mx_controller)
 
-让自己的类库和模型方法能够自动提示补全,在`my_cc.php`文档块部分增加相应的model和library即可
+让自己的类库和模型方法在其他地方能够自动提示补全,在`my_cc.php`文档块部分增加相应的model和library即可
 
 ```
+/**
+ *
  * ***************** YOUR MODELS *****************
  * @property user_model             $user_model
+ * @property log_sys_model          $log_sys                // load->model('log_sys_model', 'log_sys')
  *
  * ***************** YOUR LIBRARIES *****************
  * @property Migrate                $migrate               Migrate Class
+ * @property global_functions       $global_functions      Common functions
  *
+ */
 ```
+
+## 自定义Library中支持自动补全（额外）
+
+在Libraries目录下增加My_class.php，并设为Plain text；然后在其他自己创建的Library类中继承My_class，就可以在自定义Library中补全了：
+
+```
+application/libraries/My_class.php
+application/libraries/Log_Server.php
+```
+
+* My_class.php 内容如下：
+```php
+class My_class
+{
+
+}
+```
+
+```php
+class Log_server extends My_class
+{
+
+}
+```
+
+* 修改config/autoload.php：
+
+`$autoload['libraries'] = array('my_class');`
 
 ## 效果
 
