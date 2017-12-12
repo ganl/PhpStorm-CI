@@ -14,8 +14,11 @@ HMVC: [https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc](ht
 
 Right-click on `External Libraries` in the project explorer, and select `Configure PHP Include Pahts`
 
+![s](https://github.com/ganl/mdAssets/raw/master/img/phpStorm-ci/WX20170930-201933@2x.png) 
+
 Adds the absolute path to where `PhpStorm-CI/CodeCompletion` is located.
 
+![s](https://github.com/ganl/mdAssets/raw/master/img/phpStorm-ci/2017-09-30%2020.15.24.png) 
 
 ### Method 2: set up Content Root
 
@@ -23,6 +26,7 @@ Windows：File > Settings > Directories > Add Content Root ，select the directo
 
 Mac: Preferences（comand+,）> Directories > Add Content Root ，select the directory `PhpStorm-CI/CodeCompletion`
 
+![s](https://github.com/ganl/mdAssets/raw/master/img/phpStorm-ci/WX20170930-203042@2x.png)
 
 # CodeIgniter Specific
 
